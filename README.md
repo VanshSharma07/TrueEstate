@@ -1,4 +1,4 @@
-# TruEstate - Retail Sales Management System
+# TrueEstate - Retail Sales Management System
 
 ## Tech Stack
 

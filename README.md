@@ -1,9 +1,5 @@
 # TruEstate - Retail Sales Management System
 
-A modern retail sales management system for tracking and analyzing 830K+ transactions with advanced search, filtering, sorting, and pagination.
-
-![TruEstate Dashboard](frontend/public/image.png)
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -81,8 +77,3 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/truestate
 PORT=5000
 ```
 
-## Limitations
-
-- MongoDB Atlas Free Tier: 512MB limit (~830K of 1M records)
-- CSV Export: Max 50K records per export
-- Render Free Tier: Initial load may take 30-50 seconds as the backend spins up after inactivity

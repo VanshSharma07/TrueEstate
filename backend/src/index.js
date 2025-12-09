@@ -75,24 +75,7 @@ const startServer = async () => {
         console.log('✓ Connected to MongoDB');
 
         app.listen(PORT, () => {
-            console.log(`
-╔════════════════════════════════════════════════════════════╗
-║                                                            ║
-║   🏪 TruEstate API Server                                  ║
-║                                                            ║
-║   Status:  Running                                         ║
-║   Port:    ${PORT}                                            ║
-║   MongoDB: Connected                                       ║
-║                                                            ║
-║   Endpoints:                                               ║
-║   - GET /api/transactions                                  ║
-║   - GET /api/transactions/filters                          ║
-║   - GET /api/transactions/export                           ║
-║   - GET /api/transactions/stats                            ║
-║   - GET /api/health                                        ║
-║                                                            ║
-╚════════════════════════════════════════════════════════════╝
-      `);
+            console.log("Server is running");
         });
     } catch (error) {
         console.error('❌ Failed to start server:', error);

@@ -1,12 +1,16 @@
 {
     "name": "truestate-backend",
     "version": "1.0.0",
-    "description": "TruEstate Retail Sales Management System Backend",
+    "description": "TrueEstate Retail Sales Management System Backend",
     "main": "src/index.js",
     "scripts": {
         "start": "node src/index.js",
         "dev": "node --watch src/index.js",
-        "seed": "node src/utils/seeder.js"
+        "seed": "node src/utils/seeder.js",
+        "build": "echo 'No build step needed for Node.js'"
+    },
+    "engines": {
+        "node": "18.x"
     },
     "dependencies": {
         "cors": "^2.8.5",
